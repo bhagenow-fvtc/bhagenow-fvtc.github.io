@@ -1,8 +1,12 @@
-console.log('hi')
+//console.log('hi')
 
 // const h1 = document.querySelector('h1')
 // h1.style.color = "red"
 // console.log(document.querySelector('h1'))
+//const key = "It's a secret to everybody."
+const messageSecret = 'Princess Zelda is a great sorcesress.'
+localStorage.setItem("It's a secret to everybody.", messageSecret)
+console.log(localStorage.getItem("It's a secret to everybody."))
 
 const hours = new Date().getHours() // get the current hour
 
